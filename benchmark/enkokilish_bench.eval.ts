@@ -9,8 +9,6 @@ import { modelsToBenchmark } from "../eval_config/models_to_benchmark";
 // Import Datase
 const dataset = enkokilish_dataset;
 
-let totalCost = 0;
-
 // Benchmark
 evalite.each(modelsToBenchmark)("Enkokilish Bench", {
   data: async () => dataset,
@@ -33,7 +31,6 @@ evalite.each(modelsToBenchmark)("Enkokilish Bench", {
       },
     });
 
-    totalCost += Number(result.providerMetadata?.gateway?.marketCost ?? 0);
     return result;
   },
   scorers: [
@@ -79,5 +76,3 @@ evalite.each(modelsToBenchmark)("Enkokilish Bench", {
   },
   // trialCount: 5,  // Run each data point 5 times
 });
-
-console.log("Total Cost: ", totalCost);

@@ -1,6 +1,6 @@
 # Enkokilish Bench
 
-![screenshot](./screenshot.png)
+![screenshot](https://github.com/ScholarXIV/enkokilish_bench/blob/main/Screenshot.png)
 
 This is a new benchmark for LLMs focused on evaluating an LLMs ability to understand, reason and solve Amharic riddles. 
 

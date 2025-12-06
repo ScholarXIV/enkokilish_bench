@@ -18,7 +18,7 @@ const outputPath = `results/result-${timestamp}.json`;
 // Development mode with watch
 try {
   await runEvalite({
-    mode: "run-once-and-serve",
+    mode: "run-once-and-exit",
     path,
     outputPath,
   });

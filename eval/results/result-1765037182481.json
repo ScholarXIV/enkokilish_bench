@@ -1,0 +1,1915 @@
+{
+  "run": {
+    "id": 1,
+    "runType": "full",
+    "createdAt": "2025-12-06T16:06:26.645Z"
+  },
+  "suites": [
+    {
+      "id": 2,
+      "name": "Enkokilish Bench [gemini-2.5-flash-lite]",
+      "filepath": "E:/Projects/LLM Evals/enkokilish_bench/eval/benchmark/enkokilish_bench.eval.ts",
+      "duration": 0,
+      "status": "success",
+      "variantName": "gemini-2.5-flash-lite",
+      "variantGroup": "Enkokilish Bench",
+      "createdAt": "2025-12-06T16:06:26.646Z",
+      "averageScore": 0.5,
+      "evals": [
+        {
+          "id": 3,
+          "duration": 1939,
+          "input": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?",
+          "output": {
+            "steps": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "እሳት"
+                  }
+                ],
+                "finishReason": "stop",
+                "usage": {
+                  "inputTokens": 44,
+                  "outputTokens": 2,
+                  "totalTokens": 46
+                },
+                "warnings": [],
+                "request": {
+                  "body": {
+                    "prompt": [
+                      {
+                        "role": "system",
+                        "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                      },
+                      {
+                        "role": "user",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+                          }
+                        ]
+                      }
+                    ],
+                    "headers": {
+                      "user-agent": "ai/5.0.104"
+                    }
+                  }
+                },
+                "response": {
+                  "id": "aitxt-PWkDB4Man90sR7DyLG81Z30z",
+                  "timestamp": "2025-12-06T16:06:28.634Z",
+                  "modelId": "google/gemini-2.5-flash-lite",
+                  "headers": {
+                    "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "public, max-age=0, must-revalidate",
+                    "content-encoding": "br",
+                    "content-type": "application/json",
+                    "date": "Sat, 06 Dec 2025 16:06:26 GMT",
+                    "server": "Vercel",
+                    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                    "transfer-encoding": "chunked",
+                    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                    "x-matched-path": "/v1/ai/language-model",
+                    "x-vercel-cache": "MISS",
+                    "x-vercel-id": "dxb1::fra1::5fbxv-1765037185342-b0d1341d95c9"
+                  },
+                  "body": {
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "እሳት"
+                      }
+                    ],
+                    "finishReason": "stop",
+                    "usage": {
+                      "inputTokens": 44,
+                      "outputTokens": 2,
+                      "totalTokens": 46
+                    },
+                    "warnings": [],
+                    "providerMetadata": {
+                      "google": {
+                        "promptFeedback": null,
+                        "groundingMetadata": null,
+                        "urlContextMetadata": null,
+                        "safetyRatings": null,
+                        "usageMetadata": {
+                          "promptTokenCount": 44,
+                          "candidatesTokenCount": 2,
+                          "totalTokenCount": 46,
+                          "trafficType": "ON_DEMAND"
+                        }
+                      },
+                      "gateway": {
+                        "routing": {
+                          "originalModelId": "google/gemini-2.5-flash-lite",
+                          "resolvedProvider": "vertex",
+                          "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                          "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                          "fallbacksAvailable": [
+                            "google"
+                          ],
+                          "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                          "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                          "canonicalSlug": "google/gemini-2.5-flash-lite",
+                          "finalProvider": "vertex",
+                          "attempts": [
+                            {
+                              "provider": "vertex",
+                              "internalModelId": "vertex:gemini-2.5-flash-lite",
+                              "providerApiModelId": "gemini-2.5-flash-lite",
+                              "credentialType": "system",
+                              "success": true,
+                              "startTime": 1221291.724083,
+                              "endTime": 1222203.279288,
+                              "statusCode": 200
+                            }
+                          ],
+                          "modelAttemptCount": 1,
+                          "modelAttempts": [
+                            {
+                              "modelId": "google/gemini-2.5-flash-lite",
+                              "canonicalSlug": "google/gemini-2.5-flash-lite",
+                              "success": false,
+                              "providerAttemptCount": 0,
+                              "providerAttempts": []
+                            }
+                          ],
+                          "totalProviderAttemptCount": 0
+                        },
+                        "cost": "0.0000052",
+                        "marketCost": "0.0000052",
+                        "generationId": "gen_01KBT6M6BPP5A6077BM15J4H0N",
+                        "billableWebSearchCalls": 0
+                      }
+                    }
+                  },
+                  "messages": [
+                    {
+                      "role": "assistant",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "እሳት"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "providerMetadata": {
+                  "google": {
+                    "promptFeedback": null,
+                    "groundingMetadata": null,
+                    "urlContextMetadata": null,
+                    "safetyRatings": null,
+                    "usageMetadata": {
+                      "promptTokenCount": 44,
+                      "candidatesTokenCount": 2,
+                      "totalTokenCount": 46,
+                      "trafficType": "ON_DEMAND"
+                    }
+                  },
+                  "gateway": {
+                    "routing": {
+                      "originalModelId": "google/gemini-2.5-flash-lite",
+                      "resolvedProvider": "vertex",
+                      "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                      "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                      "fallbacksAvailable": [
+                        "google"
+                      ],
+                      "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                      "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                      "canonicalSlug": "google/gemini-2.5-flash-lite",
+                      "finalProvider": "vertex",
+                      "attempts": [
+                        {
+                          "provider": "vertex",
+                          "internalModelId": "vertex:gemini-2.5-flash-lite",
+                          "providerApiModelId": "gemini-2.5-flash-lite",
+                          "credentialType": "system",
+                          "success": true,
+                          "startTime": 1221291.724083,
+                          "endTime": 1222203.279288,
+                          "statusCode": 200
+                        }
+                      ],
+                      "modelAttemptCount": 1,
+                      "modelAttempts": [
+                        {
+                          "modelId": "google/gemini-2.5-flash-lite",
+                          "canonicalSlug": "google/gemini-2.5-flash-lite",
+                          "success": false,
+                          "providerAttemptCount": 0,
+                          "providerAttempts": []
+                        }
+                      ],
+                      "totalProviderAttemptCount": 0
+                    },
+                    "cost": "0.0000052",
+                    "marketCost": "0.0000052",
+                    "generationId": "gen_01KBT6M6BPP5A6077BM15J4H0N",
+                    "billableWebSearchCalls": 0
+                  }
+                }
+              }
+            ]
+          },
+          "expected": "እሳት",
+          "status": "success",
+          "colOrder": 0,
+          "renderedColumns": [
+            {
+              "label": "Input",
+              "value": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+            },
+            {
+              "label": "Output",
+              "value": "እሳት"
+            },
+            {
+              "label": "Expected",
+              "value": "እሳት"
+            },
+            {
+              "label": "InTok",
+              "value": 44
+            },
+            {
+              "label": "OutTok",
+              "value": 2
+            },
+            {
+              "label": "TotTok",
+              "value": 46
+            },
+            {
+              "label": "Cost",
+              "value": "0.0000052"
+            }
+          ],
+          "createdAt": "2025-12-06T16:06:26.646Z",
+          "averageScore": 1,
+          "scores": [
+            {
+              "id": 1,
+              "name": "Contains",
+              "score": 1,
+              "description": "Checks if the output contains the expected value.",
+              "metadata": null,
+              "createdAt": "2025-12-06T16:06:28.637Z"
+            }
+          ],
+          "traces": [
+            {
+              "id": 1,
+              "input": {
+                "prompt": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+              },
+              "output": {
+                "result": {
+                  "steps": [
+                    {
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "እሳት"
+                        }
+                      ],
+                      "finishReason": "stop",
+                      "usage": {
+                        "inputTokens": 44,
+                        "outputTokens": 2,
+                        "totalTokens": 46
+                      },
+                      "warnings": [],
+                      "request": {
+                        "body": {
+                          "prompt": [
+                            {
+                              "role": "system",
+                              "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                            },
+                            {
+                              "role": "user",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+                                }
+                              ]
+                            }
+                          ],
+                          "headers": {
+                            "user-agent": "ai/5.0.104"
+                          }
+                        }
+                      },
+                      "response": {
+                        "id": "aitxt-PWkDB4Man90sR7DyLG81Z30z",
+                        "timestamp": "2025-12-06T16:06:28.634Z",
+                        "modelId": "google/gemini-2.5-flash-lite",
+                        "headers": {
+                          "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                          "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                          "access-control-allow-origin": "*",
+                          "cache-control": "public, max-age=0, must-revalidate",
+                          "content-encoding": "br",
+                          "content-type": "application/json",
+                          "date": "Sat, 06 Dec 2025 16:06:26 GMT",
+                          "server": "Vercel",
+                          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                          "transfer-encoding": "chunked",
+                          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                          "x-matched-path": "/v1/ai/language-model",
+                          "x-vercel-cache": "MISS",
+                          "x-vercel-id": "dxb1::fra1::5fbxv-1765037185342-b0d1341d95c9"
+                        },
+                        "body": {
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "እሳት"
+                            }
+                          ],
+                          "finishReason": "stop",
+                          "usage": {
+                            "inputTokens": 44,
+                            "outputTokens": 2,
+                            "totalTokens": 46
+                          },
+                          "warnings": [],
+                          "providerMetadata": {
+                            "google": {
+                              "promptFeedback": null,
+                              "groundingMetadata": null,
+                              "urlContextMetadata": null,
+                              "safetyRatings": null,
+                              "usageMetadata": {
+                                "promptTokenCount": 44,
+                                "candidatesTokenCount": 2,
+                                "totalTokenCount": 46,
+                                "trafficType": "ON_DEMAND"
+                              }
+                            },
+                            "gateway": {
+                              "routing": {
+                                "originalModelId": "google/gemini-2.5-flash-lite",
+                                "resolvedProvider": "vertex",
+                                "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                                "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                                "fallbacksAvailable": [
+                                  "google"
+                                ],
+                                "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                                "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                                "canonicalSlug": "google/gemini-2.5-flash-lite",
+                                "finalProvider": "vertex",
+                                "attempts": [
+                                  {
+                                    "provider": "vertex",
+                                    "internalModelId": "vertex:gemini-2.5-flash-lite",
+                                    "providerApiModelId": "gemini-2.5-flash-lite",
+                                    "credentialType": "system",
+                                    "success": true,
+                                    "startTime": 1221291.724083,
+                                    "endTime": 1222203.279288,
+                                    "statusCode": 200
+                                  }
+                                ],
+                                "modelAttemptCount": 1,
+                                "modelAttempts": [
+                                  {
+                                    "modelId": "google/gemini-2.5-flash-lite",
+                                    "canonicalSlug": "google/gemini-2.5-flash-lite",
+                                    "success": false,
+                                    "providerAttemptCount": 0,
+                                    "providerAttempts": []
+                                  }
+                                ],
+                                "totalProviderAttemptCount": 0
+                              },
+                              "cost": "0.0000052",
+                              "marketCost": "0.0000052",
+                              "generationId": "gen_01KBT6M6BPP5A6077BM15J4H0N",
+                              "billableWebSearchCalls": 0
+                            }
+                          }
+                        },
+                        "messages": [
+                          {
+                            "role": "assistant",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "እሳት"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "providerMetadata": {
+                        "google": {
+                          "promptFeedback": null,
+                          "groundingMetadata": null,
+                          "urlContextMetadata": null,
+                          "safetyRatings": null,
+                          "usageMetadata": {
+                            "promptTokenCount": 44,
+                            "candidatesTokenCount": 2,
+                            "totalTokenCount": 46,
+                            "trafficType": "ON_DEMAND"
+                          }
+                        },
+                        "gateway": {
+                          "routing": {
+                            "originalModelId": "google/gemini-2.5-flash-lite",
+                            "resolvedProvider": "vertex",
+                            "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                            "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                            "fallbacksAvailable": [
+                              "google"
+                            ],
+                            "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                            "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                            "canonicalSlug": "google/gemini-2.5-flash-lite",
+                            "finalProvider": "vertex",
+                            "attempts": [
+                              {
+                                "provider": "vertex",
+                                "internalModelId": "vertex:gemini-2.5-flash-lite",
+                                "providerApiModelId": "gemini-2.5-flash-lite",
+                                "credentialType": "system",
+                                "success": true,
+                                "startTime": 1221291.724083,
+                                "endTime": 1222203.279288,
+                                "statusCode": 200
+                              }
+                            ],
+                            "modelAttemptCount": 1,
+                            "modelAttempts": [
+                              {
+                                "modelId": "google/gemini-2.5-flash-lite",
+                                "canonicalSlug": "google/gemini-2.5-flash-lite",
+                                "success": false,
+                                "providerAttemptCount": 0,
+                                "providerAttempts": []
+                              }
+                            ],
+                            "totalProviderAttemptCount": 0
+                          },
+                          "cost": "0.0000052",
+                          "marketCost": "0.0000052",
+                          "generationId": "gen_01KBT6M6BPP5A6077BM15J4H0N",
+                          "billableWebSearchCalls": 0
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "startTime": 0,
+              "endTime": 100,
+              "inputTokens": 44,
+              "outputTokens": 2,
+              "totalTokens": 46,
+              "colOrder": 1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "duration": 1972,
+          "input": "ስሩ ወደ ላይ ጫፉ ወደታች?",
+          "output": {
+            "steps": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "አይነት"
+                  }
+                ],
+                "finishReason": "stop",
+                "usage": {
+                  "inputTokens": 39,
+                  "outputTokens": 3,
+                  "totalTokens": 42
+                },
+                "warnings": [],
+                "request": {
+                  "body": {
+                    "prompt": [
+                      {
+                        "role": "system",
+                        "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                      },
+                      {
+                        "role": "user",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+                          }
+                        ]
+                      }
+                    ],
+                    "headers": {
+                      "user-agent": "ai/5.0.104"
+                    }
+                  }
+                },
+                "response": {
+                  "id": "aitxt-WjKQfamV4IhfDwMPKSRBLhS9",
+                  "timestamp": "2025-12-06T16:06:28.670Z",
+                  "modelId": "google/gemini-2.5-flash-lite",
+                  "headers": {
+                    "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "public, max-age=0, must-revalidate",
+                    "content-encoding": "br",
+                    "content-type": "application/json",
+                    "date": "Sat, 06 Dec 2025 16:06:26 GMT",
+                    "server": "Vercel",
+                    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                    "transfer-encoding": "chunked",
+                    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                    "x-matched-path": "/v1/ai/language-model",
+                    "x-vercel-cache": "MISS",
+                    "x-vercel-id": "dxb1::fra1::8m7sz-1765037185365-3e7bce944173"
+                  },
+                  "body": {
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "አይነት"
+                      }
+                    ],
+                    "finishReason": "stop",
+                    "usage": {
+                      "inputTokens": 39,
+                      "outputTokens": 3,
+                      "totalTokens": 42
+                    },
+                    "warnings": [],
+                    "providerMetadata": {
+                      "google": {
+                        "promptFeedback": null,
+                        "groundingMetadata": null,
+                        "urlContextMetadata": null,
+                        "safetyRatings": null,
+                        "usageMetadata": {
+                          "promptTokenCount": 39,
+                          "candidatesTokenCount": 3,
+                          "totalTokenCount": 42,
+                          "trafficType": "ON_DEMAND"
+                        }
+                      },
+                      "gateway": {
+                        "routing": {
+                          "originalModelId": "google/gemini-2.5-flash-lite",
+                          "resolvedProvider": "vertex",
+                          "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                          "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                          "fallbacksAvailable": [
+                            "google"
+                          ],
+                          "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                          "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                          "canonicalSlug": "google/gemini-2.5-flash-lite",
+                          "finalProvider": "vertex",
+                          "attempts": [
+                            {
+                              "provider": "vertex",
+                              "internalModelId": "vertex:gemini-2.5-flash-lite",
+                              "providerApiModelId": "gemini-2.5-flash-lite",
+                              "credentialType": "system",
+                              "success": true,
+                              "startTime": 4090030.197559,
+                              "endTime": 4090958.685365,
+                              "statusCode": 200
+                            }
+                          ],
+                          "modelAttemptCount": 1,
+                          "modelAttempts": [
+                            {
+                              "modelId": "google/gemini-2.5-flash-lite",
+                              "canonicalSlug": "google/gemini-2.5-flash-lite",
+                              "success": false,
+                              "providerAttemptCount": 0,
+                              "providerAttempts": []
+                            }
+                          ],
+                          "totalProviderAttemptCount": 0
+                        },
+                        "cost": "0.0000051",
+                        "marketCost": "0.0000051",
+                        "generationId": "gen_01KBT6M6CG9K3SBYJ2G7BKEK02",
+                        "billableWebSearchCalls": 0
+                      }
+                    }
+                  },
+                  "messages": [
+                    {
+                      "role": "assistant",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "አይነት"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "providerMetadata": {
+                  "google": {
+                    "promptFeedback": null,
+                    "groundingMetadata": null,
+                    "urlContextMetadata": null,
+                    "safetyRatings": null,
+                    "usageMetadata": {
+                      "promptTokenCount": 39,
+                      "candidatesTokenCount": 3,
+                      "totalTokenCount": 42,
+                      "trafficType": "ON_DEMAND"
+                    }
+                  },
+                  "gateway": {
+                    "routing": {
+                      "originalModelId": "google/gemini-2.5-flash-lite",
+                      "resolvedProvider": "vertex",
+                      "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                      "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                      "fallbacksAvailable": [
+                        "google"
+                      ],
+                      "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                      "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                      "canonicalSlug": "google/gemini-2.5-flash-lite",
+                      "finalProvider": "vertex",
+                      "attempts": [
+                        {
+                          "provider": "vertex",
+                          "internalModelId": "vertex:gemini-2.5-flash-lite",
+                          "providerApiModelId": "gemini-2.5-flash-lite",
+                          "credentialType": "system",
+                          "success": true,
+                          "startTime": 4090030.197559,
+                          "endTime": 4090958.685365,
+                          "statusCode": 200
+                        }
+                      ],
+                      "modelAttemptCount": 1,
+                      "modelAttempts": [
+                        {
+                          "modelId": "google/gemini-2.5-flash-lite",
+                          "canonicalSlug": "google/gemini-2.5-flash-lite",
+                          "success": false,
+                          "providerAttemptCount": 0,
+                          "providerAttempts": []
+                        }
+                      ],
+                      "totalProviderAttemptCount": 0
+                    },
+                    "cost": "0.0000051",
+                    "marketCost": "0.0000051",
+                    "generationId": "gen_01KBT6M6CG9K3SBYJ2G7BKEK02",
+                    "billableWebSearchCalls": 0
+                  }
+                }
+              }
+            ]
+          },
+          "expected": "የከብት ጅራት",
+          "status": "success",
+          "colOrder": 1,
+          "renderedColumns": [
+            {
+              "label": "Input",
+              "value": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+            },
+            {
+              "label": "Output",
+              "value": "አይነት"
+            },
+            {
+              "label": "Expected",
+              "value": "የከብት ጅራት"
+            },
+            {
+              "label": "InTok",
+              "value": 39
+            },
+            {
+              "label": "OutTok",
+              "value": 3
+            },
+            {
+              "label": "TotTok",
+              "value": 42
+            },
+            {
+              "label": "Cost",
+              "value": "0.0000051"
+            }
+          ],
+          "createdAt": "2025-12-06T16:06:26.646Z",
+          "averageScore": 0,
+          "scores": [
+            {
+              "id": 2,
+              "name": "Contains",
+              "score": 0,
+              "description": "Checks if the output contains the expected value.",
+              "metadata": null,
+              "createdAt": "2025-12-06T16:06:28.672Z"
+            }
+          ],
+          "traces": [
+            {
+              "id": 2,
+              "input": {
+                "prompt": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+              },
+              "output": {
+                "result": {
+                  "steps": [
+                    {
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "አይነት"
+                        }
+                      ],
+                      "finishReason": "stop",
+                      "usage": {
+                        "inputTokens": 39,
+                        "outputTokens": 3,
+                        "totalTokens": 42
+                      },
+                      "warnings": [],
+                      "request": {
+                        "body": {
+                          "prompt": [
+                            {
+                              "role": "system",
+                              "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                            },
+                            {
+                              "role": "user",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+                                }
+                              ]
+                            }
+                          ],
+                          "headers": {
+                            "user-agent": "ai/5.0.104"
+                          }
+                        }
+                      },
+                      "response": {
+                        "id": "aitxt-WjKQfamV4IhfDwMPKSRBLhS9",
+                        "timestamp": "2025-12-06T16:06:28.670Z",
+                        "modelId": "google/gemini-2.5-flash-lite",
+                        "headers": {
+                          "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                          "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                          "access-control-allow-origin": "*",
+                          "cache-control": "public, max-age=0, must-revalidate",
+                          "content-encoding": "br",
+                          "content-type": "application/json",
+                          "date": "Sat, 06 Dec 2025 16:06:26 GMT",
+                          "server": "Vercel",
+                          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                          "transfer-encoding": "chunked",
+                          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                          "x-matched-path": "/v1/ai/language-model",
+                          "x-vercel-cache": "MISS",
+                          "x-vercel-id": "dxb1::fra1::8m7sz-1765037185365-3e7bce944173"
+                        },
+                        "body": {
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "አይነት"
+                            }
+                          ],
+                          "finishReason": "stop",
+                          "usage": {
+                            "inputTokens": 39,
+                            "outputTokens": 3,
+                            "totalTokens": 42
+                          },
+                          "warnings": [],
+                          "providerMetadata": {
+                            "google": {
+                              "promptFeedback": null,
+                              "groundingMetadata": null,
+                              "urlContextMetadata": null,
+                              "safetyRatings": null,
+                              "usageMetadata": {
+                                "promptTokenCount": 39,
+                                "candidatesTokenCount": 3,
+                                "totalTokenCount": 42,
+                                "trafficType": "ON_DEMAND"
+                              }
+                            },
+                            "gateway": {
+                              "routing": {
+                                "originalModelId": "google/gemini-2.5-flash-lite",
+                                "resolvedProvider": "vertex",
+                                "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                                "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                                "fallbacksAvailable": [
+                                  "google"
+                                ],
+                                "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                                "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                                "canonicalSlug": "google/gemini-2.5-flash-lite",
+                                "finalProvider": "vertex",
+                                "attempts": [
+                                  {
+                                    "provider": "vertex",
+                                    "internalModelId": "vertex:gemini-2.5-flash-lite",
+                                    "providerApiModelId": "gemini-2.5-flash-lite",
+                                    "credentialType": "system",
+                                    "success": true,
+                                    "startTime": 4090030.197559,
+                                    "endTime": 4090958.685365,
+                                    "statusCode": 200
+                                  }
+                                ],
+                                "modelAttemptCount": 1,
+                                "modelAttempts": [
+                                  {
+                                    "modelId": "google/gemini-2.5-flash-lite",
+                                    "canonicalSlug": "google/gemini-2.5-flash-lite",
+                                    "success": false,
+                                    "providerAttemptCount": 0,
+                                    "providerAttempts": []
+                                  }
+                                ],
+                                "totalProviderAttemptCount": 0
+                              },
+                              "cost": "0.0000051",
+                              "marketCost": "0.0000051",
+                              "generationId": "gen_01KBT6M6CG9K3SBYJ2G7BKEK02",
+                              "billableWebSearchCalls": 0
+                            }
+                          }
+                        },
+                        "messages": [
+                          {
+                            "role": "assistant",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "አይነት"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "providerMetadata": {
+                        "google": {
+                          "promptFeedback": null,
+                          "groundingMetadata": null,
+                          "urlContextMetadata": null,
+                          "safetyRatings": null,
+                          "usageMetadata": {
+                            "promptTokenCount": 39,
+                            "candidatesTokenCount": 3,
+                            "totalTokenCount": 42,
+                            "trafficType": "ON_DEMAND"
+                          }
+                        },
+                        "gateway": {
+                          "routing": {
+                            "originalModelId": "google/gemini-2.5-flash-lite",
+                            "resolvedProvider": "vertex",
+                            "resolvedProviderApiModelId": "gemini-2.5-flash-lite",
+                            "internalResolvedModelId": "vertex:gemini-2.5-flash-lite",
+                            "fallbacksAvailable": [
+                              "google"
+                            ],
+                            "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash-lite. 1 fallback(s) available: google",
+                            "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                            "canonicalSlug": "google/gemini-2.5-flash-lite",
+                            "finalProvider": "vertex",
+                            "attempts": [
+                              {
+                                "provider": "vertex",
+                                "internalModelId": "vertex:gemini-2.5-flash-lite",
+                                "providerApiModelId": "gemini-2.5-flash-lite",
+                                "credentialType": "system",
+                                "success": true,
+                                "startTime": 4090030.197559,
+                                "endTime": 4090958.685365,
+                                "statusCode": 200
+                              }
+                            ],
+                            "modelAttemptCount": 1,
+                            "modelAttempts": [
+                              {
+                                "modelId": "google/gemini-2.5-flash-lite",
+                                "canonicalSlug": "google/gemini-2.5-flash-lite",
+                                "success": false,
+                                "providerAttemptCount": 0,
+                                "providerAttempts": []
+                              }
+                            ],
+                            "totalProviderAttemptCount": 0
+                          },
+                          "cost": "0.0000051",
+                          "marketCost": "0.0000051",
+                          "generationId": "gen_01KBT6M6CG9K3SBYJ2G7BKEK02",
+                          "billableWebSearchCalls": 0
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "startTime": 0,
+              "endTime": 100,
+              "inputTokens": 39,
+              "outputTokens": 3,
+              "totalTokens": 42,
+              "colOrder": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Enkokilish Bench [gemini-2.5-flash]",
+      "filepath": "E:/Projects/LLM Evals/enkokilish_bench/eval/benchmark/enkokilish_bench.eval.ts",
+      "duration": 0,
+      "status": "success",
+      "variantName": "gemini-2.5-flash",
+      "variantGroup": "Enkokilish Bench",
+      "createdAt": "2025-12-06T16:06:26.645Z",
+      "averageScore": 0.5,
+      "evals": [
+        {
+          "id": 1,
+          "duration": 4386,
+          "input": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?",
+          "output": {
+            "steps": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "እሳት"
+                  }
+                ],
+                "finishReason": "stop",
+                "usage": {
+                  "inputTokens": 44,
+                  "outputTokens": 2,
+                  "totalTokens": 421,
+                  "reasoningTokens": 375
+                },
+                "warnings": [],
+                "request": {
+                  "body": {
+                    "prompt": [
+                      {
+                        "role": "system",
+                        "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                      },
+                      {
+                        "role": "user",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+                          }
+                        ]
+                      }
+                    ],
+                    "headers": {
+                      "user-agent": "ai/5.0.104"
+                    }
+                  }
+                },
+                "response": {
+                  "id": "aitxt-jnvKAsKWLRkQXHICRzTrTsym",
+                  "timestamp": "2025-12-06T16:06:31.030Z",
+                  "modelId": "google/gemini-2.5-flash",
+                  "headers": {
+                    "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "public, max-age=0, must-revalidate",
+                    "content-encoding": "br",
+                    "content-type": "application/json",
+                    "date": "Sat, 06 Dec 2025 16:06:28 GMT",
+                    "server": "Vercel",
+                    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                    "transfer-encoding": "chunked",
+                    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                    "x-matched-path": "/v1/ai/language-model",
+                    "x-vercel-cache": "MISS",
+                    "x-vercel-id": "dxb1::fra1::z4bqd-1765037185367-f930e1441660"
+                  },
+                  "body": {
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "እሳት"
+                      }
+                    ],
+                    "finishReason": "stop",
+                    "usage": {
+                      "inputTokens": 44,
+                      "outputTokens": 2,
+                      "totalTokens": 421,
+                      "reasoningTokens": 375
+                    },
+                    "warnings": [],
+                    "providerMetadata": {
+                      "google": {
+                        "promptFeedback": null,
+                        "groundingMetadata": null,
+                        "urlContextMetadata": null,
+                        "safetyRatings": null,
+                        "usageMetadata": {
+                          "thoughtsTokenCount": 375,
+                          "promptTokenCount": 44,
+                          "candidatesTokenCount": 2,
+                          "totalTokenCount": 421,
+                          "trafficType": "ON_DEMAND"
+                        }
+                      },
+                      "gateway": {
+                        "routing": {
+                          "originalModelId": "google/gemini-2.5-flash",
+                          "resolvedProvider": "vertex",
+                          "resolvedProviderApiModelId": "gemini-2.5-flash",
+                          "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                          "fallbacksAvailable": [
+                            "google"
+                          ],
+                          "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                          "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                          "canonicalSlug": "google/gemini-2.5-flash",
+                          "finalProvider": "vertex",
+                          "attempts": [
+                            {
+                              "provider": "vertex",
+                              "internalModelId": "vertex:gemini-2.5-flash",
+                              "providerApiModelId": "gemini-2.5-flash",
+                              "credentialType": "system",
+                              "success": true,
+                              "startTime": 1221332.38251,
+                              "endTime": 1224628.856924,
+                              "statusCode": 200
+                            }
+                          ],
+                          "modelAttemptCount": 1,
+                          "modelAttempts": [
+                            {
+                              "modelId": "google/gemini-2.5-flash",
+                              "canonicalSlug": "google/gemini-2.5-flash",
+                              "success": false,
+                              "providerAttemptCount": 0,
+                              "providerAttempts": []
+                            }
+                          ],
+                          "totalProviderAttemptCount": 0
+                        },
+                        "cost": "0.0009557",
+                        "marketCost": "0.0009557",
+                        "generationId": "gen_01KBT6M6CQ9QYZM5EGXH3DNW9X",
+                        "billableWebSearchCalls": 0
+                      }
+                    }
+                  },
+                  "messages": [
+                    {
+                      "role": "assistant",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "እሳት"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "providerMetadata": {
+                  "google": {
+                    "promptFeedback": null,
+                    "groundingMetadata": null,
+                    "urlContextMetadata": null,
+                    "safetyRatings": null,
+                    "usageMetadata": {
+                      "thoughtsTokenCount": 375,
+                      "promptTokenCount": 44,
+                      "candidatesTokenCount": 2,
+                      "totalTokenCount": 421,
+                      "trafficType": "ON_DEMAND"
+                    }
+                  },
+                  "gateway": {
+                    "routing": {
+                      "originalModelId": "google/gemini-2.5-flash",
+                      "resolvedProvider": "vertex",
+                      "resolvedProviderApiModelId": "gemini-2.5-flash",
+                      "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                      "fallbacksAvailable": [
+                        "google"
+                      ],
+                      "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                      "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                      "canonicalSlug": "google/gemini-2.5-flash",
+                      "finalProvider": "vertex",
+                      "attempts": [
+                        {
+                          "provider": "vertex",
+                          "internalModelId": "vertex:gemini-2.5-flash",
+                          "providerApiModelId": "gemini-2.5-flash",
+                          "credentialType": "system",
+                          "success": true,
+                          "startTime": 1221332.38251,
+                          "endTime": 1224628.856924,
+                          "statusCode": 200
+                        }
+                      ],
+                      "modelAttemptCount": 1,
+                      "modelAttempts": [
+                        {
+                          "modelId": "google/gemini-2.5-flash",
+                          "canonicalSlug": "google/gemini-2.5-flash",
+                          "success": false,
+                          "providerAttemptCount": 0,
+                          "providerAttempts": []
+                        }
+                      ],
+                      "totalProviderAttemptCount": 0
+                    },
+                    "cost": "0.0009557",
+                    "marketCost": "0.0009557",
+                    "generationId": "gen_01KBT6M6CQ9QYZM5EGXH3DNW9X",
+                    "billableWebSearchCalls": 0
+                  }
+                }
+              }
+            ]
+          },
+          "expected": "እሳት",
+          "status": "success",
+          "colOrder": 0,
+          "renderedColumns": [
+            {
+              "label": "Input",
+              "value": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+            },
+            {
+              "label": "Output",
+              "value": "እሳት"
+            },
+            {
+              "label": "Expected",
+              "value": "እሳት"
+            },
+            {
+              "label": "InTok",
+              "value": 44
+            },
+            {
+              "label": "OutTok",
+              "value": 2
+            },
+            {
+              "label": "TotTok",
+              "value": 421
+            },
+            {
+              "label": "Cost",
+              "value": "0.0009557"
+            }
+          ],
+          "createdAt": "2025-12-06T16:06:26.645Z",
+          "averageScore": 1,
+          "scores": [
+            {
+              "id": 3,
+              "name": "Contains",
+              "score": 1,
+              "description": "Checks if the output contains the expected value.",
+              "metadata": null,
+              "createdAt": "2025-12-06T16:06:31.032Z"
+            }
+          ],
+          "traces": [
+            {
+              "id": 3,
+              "input": {
+                "prompt": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+              },
+              "output": {
+                "result": {
+                  "steps": [
+                    {
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "እሳት"
+                        }
+                      ],
+                      "finishReason": "stop",
+                      "usage": {
+                        "inputTokens": 44,
+                        "outputTokens": 2,
+                        "totalTokens": 421,
+                        "reasoningTokens": 375
+                      },
+                      "warnings": [],
+                      "request": {
+                        "body": {
+                          "prompt": [
+                            {
+                              "role": "system",
+                              "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                            },
+                            {
+                              "role": "user",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "የሰጡትን የሚበላ ሲያጠጡት የሚጠፋ?"
+                                }
+                              ]
+                            }
+                          ],
+                          "headers": {
+                            "user-agent": "ai/5.0.104"
+                          }
+                        }
+                      },
+                      "response": {
+                        "id": "aitxt-jnvKAsKWLRkQXHICRzTrTsym",
+                        "timestamp": "2025-12-06T16:06:31.030Z",
+                        "modelId": "google/gemini-2.5-flash",
+                        "headers": {
+                          "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                          "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                          "access-control-allow-origin": "*",
+                          "cache-control": "public, max-age=0, must-revalidate",
+                          "content-encoding": "br",
+                          "content-type": "application/json",
+                          "date": "Sat, 06 Dec 2025 16:06:28 GMT",
+                          "server": "Vercel",
+                          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                          "transfer-encoding": "chunked",
+                          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                          "x-matched-path": "/v1/ai/language-model",
+                          "x-vercel-cache": "MISS",
+                          "x-vercel-id": "dxb1::fra1::z4bqd-1765037185367-f930e1441660"
+                        },
+                        "body": {
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "እሳት"
+                            }
+                          ],
+                          "finishReason": "stop",
+                          "usage": {
+                            "inputTokens": 44,
+                            "outputTokens": 2,
+                            "totalTokens": 421,
+                            "reasoningTokens": 375
+                          },
+                          "warnings": [],
+                          "providerMetadata": {
+                            "google": {
+                              "promptFeedback": null,
+                              "groundingMetadata": null,
+                              "urlContextMetadata": null,
+                              "safetyRatings": null,
+                              "usageMetadata": {
+                                "thoughtsTokenCount": 375,
+                                "promptTokenCount": 44,
+                                "candidatesTokenCount": 2,
+                                "totalTokenCount": 421,
+                                "trafficType": "ON_DEMAND"
+                              }
+                            },
+                            "gateway": {
+                              "routing": {
+                                "originalModelId": "google/gemini-2.5-flash",
+                                "resolvedProvider": "vertex",
+                                "resolvedProviderApiModelId": "gemini-2.5-flash",
+                                "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                                "fallbacksAvailable": [
+                                  "google"
+                                ],
+                                "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                                "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                                "canonicalSlug": "google/gemini-2.5-flash",
+                                "finalProvider": "vertex",
+                                "attempts": [
+                                  {
+                                    "provider": "vertex",
+                                    "internalModelId": "vertex:gemini-2.5-flash",
+                                    "providerApiModelId": "gemini-2.5-flash",
+                                    "credentialType": "system",
+                                    "success": true,
+                                    "startTime": 1221332.38251,
+                                    "endTime": 1224628.856924,
+                                    "statusCode": 200
+                                  }
+                                ],
+                                "modelAttemptCount": 1,
+                                "modelAttempts": [
+                                  {
+                                    "modelId": "google/gemini-2.5-flash",
+                                    "canonicalSlug": "google/gemini-2.5-flash",
+                                    "success": false,
+                                    "providerAttemptCount": 0,
+                                    "providerAttempts": []
+                                  }
+                                ],
+                                "totalProviderAttemptCount": 0
+                              },
+                              "cost": "0.0009557",
+                              "marketCost": "0.0009557",
+                              "generationId": "gen_01KBT6M6CQ9QYZM5EGXH3DNW9X",
+                              "billableWebSearchCalls": 0
+                            }
+                          }
+                        },
+                        "messages": [
+                          {
+                            "role": "assistant",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "እሳት"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "providerMetadata": {
+                        "google": {
+                          "promptFeedback": null,
+                          "groundingMetadata": null,
+                          "urlContextMetadata": null,
+                          "safetyRatings": null,
+                          "usageMetadata": {
+                            "thoughtsTokenCount": 375,
+                            "promptTokenCount": 44,
+                            "candidatesTokenCount": 2,
+                            "totalTokenCount": 421,
+                            "trafficType": "ON_DEMAND"
+                          }
+                        },
+                        "gateway": {
+                          "routing": {
+                            "originalModelId": "google/gemini-2.5-flash",
+                            "resolvedProvider": "vertex",
+                            "resolvedProviderApiModelId": "gemini-2.5-flash",
+                            "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                            "fallbacksAvailable": [
+                              "google"
+                            ],
+                            "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                            "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                            "canonicalSlug": "google/gemini-2.5-flash",
+                            "finalProvider": "vertex",
+                            "attempts": [
+                              {
+                                "provider": "vertex",
+                                "internalModelId": "vertex:gemini-2.5-flash",
+                                "providerApiModelId": "gemini-2.5-flash",
+                                "credentialType": "system",
+                                "success": true,
+                                "startTime": 1221332.38251,
+                                "endTime": 1224628.856924,
+                                "statusCode": 200
+                              }
+                            ],
+                            "modelAttemptCount": 1,
+                            "modelAttempts": [
+                              {
+                                "modelId": "google/gemini-2.5-flash",
+                                "canonicalSlug": "google/gemini-2.5-flash",
+                                "success": false,
+                                "providerAttemptCount": 0,
+                                "providerAttempts": []
+                              }
+                            ],
+                            "totalProviderAttemptCount": 0
+                          },
+                          "cost": "0.0009557",
+                          "marketCost": "0.0009557",
+                          "generationId": "gen_01KBT6M6CQ9QYZM5EGXH3DNW9X",
+                          "billableWebSearchCalls": 0
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "startTime": 0,
+              "endTime": 100,
+              "inputTokens": 44,
+              "outputTokens": 2,
+              "totalTokens": 421,
+              "colOrder": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "duration": 9147,
+          "input": "ስሩ ወደ ላይ ጫፉ ወደታች?",
+          "output": {
+            "steps": [
+              {
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "በረዶ"
+                  }
+                ],
+                "finishReason": "stop",
+                "usage": {
+                  "inputTokens": 39,
+                  "outputTokens": 2,
+                  "totalTokens": 1334,
+                  "reasoningTokens": 1293
+                },
+                "warnings": [],
+                "request": {
+                  "body": {
+                    "prompt": [
+                      {
+                        "role": "system",
+                        "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                      },
+                      {
+                        "role": "user",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+                          }
+                        ]
+                      }
+                    ],
+                    "headers": {
+                      "user-agent": "ai/5.0.104"
+                    }
+                  }
+                },
+                "response": {
+                  "id": "aitxt-AZYWwlYZkVmrZIbKCQtGoRgr",
+                  "timestamp": "2025-12-06T16:06:35.841Z",
+                  "modelId": "google/gemini-2.5-flash",
+                  "headers": {
+                    "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                    "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "public, max-age=0, must-revalidate",
+                    "content-encoding": "br",
+                    "content-type": "application/json",
+                    "date": "Sat, 06 Dec 2025 16:06:33 GMT",
+                    "server": "Vercel",
+                    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                    "transfer-encoding": "chunked",
+                    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                    "x-matched-path": "/v1/ai/language-model",
+                    "x-vercel-cache": "MISS",
+                    "x-vercel-id": "dxb1::fra1::wk6zs-1765037185339-3d1d19d5bee5"
+                  },
+                  "body": {
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "በረዶ"
+                      }
+                    ],
+                    "finishReason": "stop",
+                    "usage": {
+                      "inputTokens": 39,
+                      "outputTokens": 2,
+                      "totalTokens": 1334,
+                      "reasoningTokens": 1293
+                    },
+                    "warnings": [],
+                    "providerMetadata": {
+                      "google": {
+                        "promptFeedback": null,
+                        "groundingMetadata": null,
+                        "urlContextMetadata": null,
+                        "safetyRatings": null,
+                        "usageMetadata": {
+                          "thoughtsTokenCount": 1293,
+                          "promptTokenCount": 39,
+                          "candidatesTokenCount": 2,
+                          "totalTokenCount": 1334,
+                          "trafficType": "ON_DEMAND"
+                        }
+                      },
+                      "gateway": {
+                        "routing": {
+                          "originalModelId": "google/gemini-2.5-flash",
+                          "resolvedProvider": "vertex",
+                          "resolvedProviderApiModelId": "gemini-2.5-flash",
+                          "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                          "fallbacksAvailable": [
+                            "google"
+                          ],
+                          "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                          "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                          "canonicalSlug": "google/gemini-2.5-flash",
+                          "finalProvider": "vertex",
+                          "attempts": [
+                            {
+                              "provider": "vertex",
+                              "internalModelId": "vertex:gemini-2.5-flash",
+                              "providerApiModelId": "gemini-2.5-flash",
+                              "credentialType": "system",
+                              "success": true,
+                              "startTime": 1914947.010031,
+                              "endTime": 1923056.90943,
+                              "statusCode": 200
+                            }
+                          ],
+                          "modelAttemptCount": 1,
+                          "modelAttempts": [
+                            {
+                              "modelId": "google/gemini-2.5-flash",
+                              "canonicalSlug": "google/gemini-2.5-flash",
+                              "success": false,
+                              "providerAttemptCount": 0,
+                              "providerAttempts": []
+                            }
+                          ],
+                          "totalProviderAttemptCount": 0
+                        },
+                        "cost": "0.0032492",
+                        "marketCost": "0.0032492",
+                        "generationId": "gen_01KBT6M6BD1MFGJX3S3E7EFBM0",
+                        "billableWebSearchCalls": 0
+                      }
+                    }
+                  },
+                  "messages": [
+                    {
+                      "role": "assistant",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "በረዶ"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "providerMetadata": {
+                  "google": {
+                    "promptFeedback": null,
+                    "groundingMetadata": null,
+                    "urlContextMetadata": null,
+                    "safetyRatings": null,
+                    "usageMetadata": {
+                      "thoughtsTokenCount": 1293,
+                      "promptTokenCount": 39,
+                      "candidatesTokenCount": 2,
+                      "totalTokenCount": 1334,
+                      "trafficType": "ON_DEMAND"
+                    }
+                  },
+                  "gateway": {
+                    "routing": {
+                      "originalModelId": "google/gemini-2.5-flash",
+                      "resolvedProvider": "vertex",
+                      "resolvedProviderApiModelId": "gemini-2.5-flash",
+                      "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                      "fallbacksAvailable": [
+                        "google"
+                      ],
+                      "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                      "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                      "canonicalSlug": "google/gemini-2.5-flash",
+                      "finalProvider": "vertex",
+                      "attempts": [
+                        {
+                          "provider": "vertex",
+                          "internalModelId": "vertex:gemini-2.5-flash",
+                          "providerApiModelId": "gemini-2.5-flash",
+                          "credentialType": "system",
+                          "success": true,
+                          "startTime": 1914947.010031,
+                          "endTime": 1923056.90943,
+                          "statusCode": 200
+                        }
+                      ],
+                      "modelAttemptCount": 1,
+                      "modelAttempts": [
+                        {
+                          "modelId": "google/gemini-2.5-flash",
+                          "canonicalSlug": "google/gemini-2.5-flash",
+                          "success": false,
+                          "providerAttemptCount": 0,
+                          "providerAttempts": []
+                        }
+                      ],
+                      "totalProviderAttemptCount": 0
+                    },
+                    "cost": "0.0032492",
+                    "marketCost": "0.0032492",
+                    "generationId": "gen_01KBT6M6BD1MFGJX3S3E7EFBM0",
+                    "billableWebSearchCalls": 0
+                  }
+                }
+              }
+            ]
+          },
+          "expected": "የከብት ጅራት",
+          "status": "success",
+          "colOrder": 1,
+          "renderedColumns": [
+            {
+              "label": "Input",
+              "value": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+            },
+            {
+              "label": "Output",
+              "value": "በረዶ"
+            },
+            {
+              "label": "Expected",
+              "value": "የከብት ጅራት"
+            },
+            {
+              "label": "InTok",
+              "value": 39
+            },
+            {
+              "label": "OutTok",
+              "value": 2
+            },
+            {
+              "label": "TotTok",
+              "value": 1334
+            },
+            {
+              "label": "Cost",
+              "value": "0.0032492"
+            }
+          ],
+          "createdAt": "2025-12-06T16:06:26.646Z",
+          "averageScore": 0,
+          "scores": [
+            {
+              "id": 4,
+              "name": "Contains",
+              "score": 0,
+              "description": "Checks if the output contains the expected value.",
+              "metadata": null,
+              "createdAt": "2025-12-06T16:06:35.843Z"
+            }
+          ],
+          "traces": [
+            {
+              "id": 4,
+              "input": {
+                "prompt": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+              },
+              "output": {
+                "result": {
+                  "steps": [
+                    {
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "በረዶ"
+                        }
+                      ],
+                      "finishReason": "stop",
+                      "usage": {
+                        "inputTokens": 39,
+                        "outputTokens": 2,
+                        "totalTokens": 1334,
+                        "reasoningTokens": 1293
+                      },
+                      "warnings": [],
+                      "request": {
+                        "body": {
+                          "prompt": [
+                            {
+                              "role": "system",
+                              "content": "You are an Amharic riddle solver. Try your best to solve every riddle you are asked. Respond with one word or phrase only!"
+                            },
+                            {
+                              "role": "user",
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "ስሩ ወደ ላይ ጫፉ ወደታች?"
+                                }
+                              ]
+                            }
+                          ],
+                          "headers": {
+                            "user-agent": "ai/5.0.104"
+                          }
+                        }
+                      },
+                      "response": {
+                        "id": "aitxt-AZYWwlYZkVmrZIbKCQtGoRgr",
+                        "timestamp": "2025-12-06T16:06:35.841Z",
+                        "modelId": "google/gemini-2.5-flash",
+                        "headers": {
+                          "access-control-allow-headers": "Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title",
+                          "access-control-allow-methods": "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+                          "access-control-allow-origin": "*",
+                          "cache-control": "public, max-age=0, must-revalidate",
+                          "content-encoding": "br",
+                          "content-type": "application/json",
+                          "date": "Sat, 06 Dec 2025 16:06:33 GMT",
+                          "server": "Vercel",
+                          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+                          "transfer-encoding": "chunked",
+                          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+                          "x-matched-path": "/v1/ai/language-model",
+                          "x-vercel-cache": "MISS",
+                          "x-vercel-id": "dxb1::fra1::wk6zs-1765037185339-3d1d19d5bee5"
+                        },
+                        "body": {
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "በረዶ"
+                            }
+                          ],
+                          "finishReason": "stop",
+                          "usage": {
+                            "inputTokens": 39,
+                            "outputTokens": 2,
+                            "totalTokens": 1334,
+                            "reasoningTokens": 1293
+                          },
+                          "warnings": [],
+                          "providerMetadata": {
+                            "google": {
+                              "promptFeedback": null,
+                              "groundingMetadata": null,
+                              "urlContextMetadata": null,
+                              "safetyRatings": null,
+                              "usageMetadata": {
+                                "thoughtsTokenCount": 1293,
+                                "promptTokenCount": 39,
+                                "candidatesTokenCount": 2,
+                                "totalTokenCount": 1334,
+                                "trafficType": "ON_DEMAND"
+                              }
+                            },
+                            "gateway": {
+                              "routing": {
+                                "originalModelId": "google/gemini-2.5-flash",
+                                "resolvedProvider": "vertex",
+                                "resolvedProviderApiModelId": "gemini-2.5-flash",
+                                "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                                "fallbacksAvailable": [
+                                  "google"
+                                ],
+                                "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                                "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                                "canonicalSlug": "google/gemini-2.5-flash",
+                                "finalProvider": "vertex",
+                                "attempts": [
+                                  {
+                                    "provider": "vertex",
+                                    "internalModelId": "vertex:gemini-2.5-flash",
+                                    "providerApiModelId": "gemini-2.5-flash",
+                                    "credentialType": "system",
+                                    "success": true,
+                                    "startTime": 1914947.010031,
+                                    "endTime": 1923056.90943,
+                                    "statusCode": 200
+                                  }
+                                ],
+                                "modelAttemptCount": 1,
+                                "modelAttempts": [
+                                  {
+                                    "modelId": "google/gemini-2.5-flash",
+                                    "canonicalSlug": "google/gemini-2.5-flash",
+                                    "success": false,
+                                    "providerAttemptCount": 0,
+                                    "providerAttempts": []
+                                  }
+                                ],
+                                "totalProviderAttemptCount": 0
+                              },
+                              "cost": "0.0032492",
+                              "marketCost": "0.0032492",
+                              "generationId": "gen_01KBT6M6BD1MFGJX3S3E7EFBM0",
+                              "billableWebSearchCalls": 0
+                            }
+                          }
+                        },
+                        "messages": [
+                          {
+                            "role": "assistant",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "በረዶ"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "providerMetadata": {
+                        "google": {
+                          "promptFeedback": null,
+                          "groundingMetadata": null,
+                          "urlContextMetadata": null,
+                          "safetyRatings": null,
+                          "usageMetadata": {
+                            "thoughtsTokenCount": 1293,
+                            "promptTokenCount": 39,
+                            "candidatesTokenCount": 2,
+                            "totalTokenCount": 1334,
+                            "trafficType": "ON_DEMAND"
+                          }
+                        },
+                        "gateway": {
+                          "routing": {
+                            "originalModelId": "google/gemini-2.5-flash",
+                            "resolvedProvider": "vertex",
+                            "resolvedProviderApiModelId": "gemini-2.5-flash",
+                            "internalResolvedModelId": "vertex:gemini-2.5-flash",
+                            "fallbacksAvailable": [
+                              "google"
+                            ],
+                            "internalReasoning": "Selected vertex as preferred provider for gemini-2.5-flash. 1 fallback(s) available: google",
+                            "planningReasoning": "System credentials planned for: vertex, google. Total execution order: vertex(system) → google(system)",
+                            "canonicalSlug": "google/gemini-2.5-flash",
+                            "finalProvider": "vertex",
+                            "attempts": [
+                              {
+                                "provider": "vertex",
+                                "internalModelId": "vertex:gemini-2.5-flash",
+                                "providerApiModelId": "gemini-2.5-flash",
+                                "credentialType": "system",
+                                "success": true,
+                                "startTime": 1914947.010031,
+                                "endTime": 1923056.90943,
+                                "statusCode": 200
+                              }
+                            ],
+                            "modelAttemptCount": 1,
+                            "modelAttempts": [
+                              {
+                                "modelId": "google/gemini-2.5-flash",
+                                "canonicalSlug": "google/gemini-2.5-flash",
+                                "success": false,
+                                "providerAttemptCount": 0,
+                                "providerAttempts": []
+                              }
+                            ],
+                            "totalProviderAttemptCount": 0
+                          },
+                          "cost": "0.0032492",
+                          "marketCost": "0.0032492",
+                          "generationId": "gen_01KBT6M6BD1MFGJX3S3E7EFBM0",
+                          "billableWebSearchCalls": 0
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "startTime": 0,
+              "endTime": 100,
+              "inputTokens": 39,
+              "outputTokens": 2,
+              "totalTokens": 1334,
+              "colOrder": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

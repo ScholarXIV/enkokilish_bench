@@ -13,25 +13,43 @@ const dataset = enkokilish_dataset;
 evalite.each(modelsToBenchmark)("Enkokilish Bench", {
   data: async () => dataset,
   task: async (input, model) => {
-    const result = await generateText({
-      model: model,
-      system: systemPrompt,
-      prompt: input,
-    });
+    try {
+      const result = await generateText({
+        model: model,
+        system: systemPrompt,
+        prompt: input,
+      });
 
-    reportTrace({
-      start: 0,
-      end: 100,
-      input: { prompt: input },
-      output: { result: result },
-      usage: {
-        inputTokens: result.usage.inputTokens || 0,
-        outputTokens: result.usage.outputTokens || 0,
-        totalTokens: result.usage.totalTokens || 0,
-      },
-    });
+      reportTrace({
+        start: 0,
+        end: 100,
+        input: { prompt: input },
+        output: { result: result },
+        usage: {
+          inputTokens: result.usage.inputTokens || 0,
+          outputTokens: result.usage.outputTokens || 0,
+          totalTokens: result.usage.totalTokens || 0,
+        },
+      });
 
-    return result;
+      return result;
+    } catch (err) {
+      // fallback object to keep evalite alive
+      return {
+        text: "",
+        error: String(err?.message || err),
+        usage: {
+          inputTokens: 0,
+          outputTokens: 0,
+          totalTokens: 0,
+        },
+        providerMetadata: {
+          gateway: {
+            marketCost: 0,
+          },
+        },
+      };
+    }
   },
   scorers: [
     {
@@ -50,7 +68,7 @@ evalite.each(modelsToBenchmark)("Enkokilish Bench", {
       },
       {
         label: "Output",
-        value: output.text,
+        value: output.text || "",
       },
       {
         label: "Expected",
@@ -70,7 +88,7 @@ evalite.each(modelsToBenchmark)("Enkokilish Bench", {
       },
       {
         label: "Cost",
-        value: output.providerMetadata?.["gateway"]["marketCost"],
+        value: output.providerMetadata?.["gateway"]["marketCost"] || 0,
       },
     ];
   },
